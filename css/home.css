@@ -1,0 +1,38 @@
+
+nav{
+    background-color: var(--background-green) ;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    
+}
+
+.link-nav{
+    
+    margin-right: 20px;
+    margin-left: 5px;
+    color: #fff;
+    
+}
+
+
+
+.nav{
+    justify-content: right;
+    display: flex;
+}
+
+
+.link-nav:hover {
+    background-color: white;
+    color: var(--color-brown )  ;
+}
+
+.nav-item {
+    padding: 10px;
+    display: flex   ;
+    border-radius: 10px;
+    cursor: pointer;
+}

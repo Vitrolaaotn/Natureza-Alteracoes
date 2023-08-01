@@ -1,0 +1,68 @@
+.img-natureza{
+    overflow-x: scroll;
+    height: 600px;
+    width: 260px;
+    overflow-x:hidden;
+    
+    margin-right: 15px;
+    
+}
+
+
+.list-natureza img{
+    width: 700px;
+    height: 600px;
+    
+}
+
+
+
+main h2{  
+    font-family: var(--font-display); 
+    color: var(--color-brown);
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;  
+    margin-left:135px;
+}
+
+.container span{
+    color: var(--color-brown);
+}
+
+.main-text{
+    max-width: 900px;
+    padding-left: 20px;
+}
+
+main p{
+    margin-top:15px
+}
+
+.section-praia h2{
+    
+    margin-top: 20px
+}
+
+.section-montanhas h2{
+
+    margin-top: 20px
+}
+
+.section-florestas h2{
+    margin-top: 20px;
+}
+
+
+.img-natureza::-webkit-scrollbar{
+    background-color: #D9D9D9;
+    
+}
+
+.img-natureza::-webkit-scrollbar-thumb{
+    background-color: var(--background-green);
+}
