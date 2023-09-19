@@ -10,3 +10,18 @@ faqs.forEach(faq => {
         }
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // pega todas as imagens dentro da lista com a classe "list-natureza"
+    const imagensNatureza = document.querySelectorAll('.list-natureza img');
+
+    // pega as seções correspondentes aos links das imagens
+    const sessoesNatureza = [
+        'section-natureza',
+        'section-praia',
+        'section-florestas',
+        'section-montanhas'
+    ];
+
+
