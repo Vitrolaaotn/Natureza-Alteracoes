@@ -1,7 +1,6 @@
 .contato-content{
     display:flex;
-
-    margin-left:10%;
+    margin-left:5px;
     margin-bottom: 100px; 
 }
 
@@ -19,11 +18,10 @@
 
 @media (max-width: 768px) {
     .mapa iframe {
-        margin-left:  0px;
+        margin-left:0px;
         width: 100%;
-    
-
             }
+    
     .contato-content{
         flex-direction: column;
         }

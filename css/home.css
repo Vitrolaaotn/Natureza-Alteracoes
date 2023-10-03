@@ -1,14 +1,10 @@
-.nav ul {
+.nav-items ul{
     display: flex;
-    list-style-type: none; 
-    padding: 0; 
 }
-
-
 
 nav{
     background-color: var(--background-green) ;
-    margin-top: 40px;
+    margin-top: 40  px;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -17,13 +13,16 @@ nav{
 }
 
 .link-nav{
-    
+    display: flex;
     margin-right: 20px;
     margin-left: 5px;
     color: #fff;
     
 }
 
+.toggle{
+    color: #fff;
+}
 
 
 .nav{
@@ -55,26 +54,44 @@ nav{
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-    .toggle {
+@media screen and (max-width: 768px) {    
+    .nav-items ul{
+        display: block;
+        
+
+    }
+    
+    .link-nav{
+        display: block;
+        margin: 0;
+        padding: 10px;
+
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+    .js-list{
+        display: none;
+        animation: fadeOut .3s forwards;
+    }
+
+    .toggle{
         display: flex;
     }
 
-	.js-list{
-        display: none;
-        animation: fadeOut .3s forwards;
 
-    }
     .js-list.active{
         display: block;
         position: absolute;
         top: 69px;
         left: 0;
-        width: 100%;    
+        width: 100%;
         background-color: var(--background-green);
         z-index: 100;
         animation: slideDownMenu .5s forwards;
+        
     }
+
 
     .toggle span.active{
         animation: slideDownMenu .5s forwards;

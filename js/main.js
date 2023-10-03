@@ -13,7 +13,6 @@ faqs.forEach(faq => {
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', function () {
     // pega todas as imagens dentro da lista com a classe "list-natureza"
     const imagensNatureza = document.querySelectorAll('.list-natureza img');
@@ -25,6 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
         'section-florestas',
         'section-montanhas'
     ];
+
+
 
     // mostra a "section-natureza" como padrão
     const sessaoNaturezaPadrao = document.querySelector('.section-natureza');
@@ -55,8 +56,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
-
 
 
 
