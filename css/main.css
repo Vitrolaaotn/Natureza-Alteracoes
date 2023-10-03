@@ -59,7 +59,7 @@ main p{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
         flex-direction: column;
         margin-left: 0;
@@ -72,4 +72,7 @@ main p{
         width: 100%;
         margin-right: 0;
     }
+
+    
+    
 }

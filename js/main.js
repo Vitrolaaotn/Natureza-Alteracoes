@@ -1,3 +1,5 @@
+
+
 const faqs = document.querySelectorAll(".faq");
 
 faqs.forEach(faq => {
@@ -55,9 +57,21 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-const menuMobile = document.querySelector('.menu-mobile');
-const menu = document.querySelector('.menu');
-const close = document.querySelector('.close');
 
+
+
+const toggle = document.querySelector('.toggle');
+const menuList = document.querySelector('.js-list');
+
+    if (toggle && menuList) {
+        function toggleMenu() {
+            menuList.classList.toggle('active');
+            const toggleIcon = toggle.querySelector('span');
+            toggleIcon.classList.toggle('active');
+            toggleIcon.innerText = toggleIcon.innerText === 'menu' ? 'close' : 'menu';
+        }
+
+        toggle.addEventListener('click', toggleMenu);
+    }
 
 

@@ -48,3 +48,8 @@
 }
 
 
+@media (max-width: 768px) {
+    .faq{
+        margin-left: 10px;
+    }
+}
