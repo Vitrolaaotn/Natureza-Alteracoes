@@ -1,14 +1,15 @@
 export function Modal () {
-    
+    // pega o modal
     const jsmodal = document.querySelector(".js-modal");
     const dados = {}
+    // verifica se o modal existe
     if (localStorage.getItem("email") === null) {
     jsmodal.classList.add("active");
     }
     else {
     jsmodal.classList.remove("active");
     }
-
+    // obtem o formulário
     function pegarValorForm(event){
     dados[event.target.name] = event.target.value
     console.log(dados)
