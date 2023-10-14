@@ -4,8 +4,8 @@
 
 nav{
     background-color: var(--background-green) ;
-    margin-top: 40  px;
-    padding: 20px;
+    margin-top: 50px;
+    padding: 30px;
     display: flex;
     align-items: center;
     width: 1200px;
@@ -17,6 +17,7 @@ nav{
     margin-right: 20px;
     margin-left: 5px;
     color: #fff;
+
     
 }
 
@@ -34,10 +35,13 @@ nav{
 .link-nav:hover {
     background-color: white;
     color: var(--color-brown )  ;
+    border-radius: 5px;
+    transition: 0.5s;
+
 }
 
 .menu-item {
-    padding: 10px;
+    
     display: flex;
     border-radius: 10px;
     cursor: pointer;
@@ -97,8 +101,12 @@ nav{
         animation: slideDownMenu .5s forwards;
     }
 
-}
 
+    nav{
+        margin-top: 0px;
+    }
+
+}
 
 
 @keyframes slideDownMenu {

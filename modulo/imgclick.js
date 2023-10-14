@@ -1,6 +1,5 @@
-export function imgclick () {
-    document.addEventListener('DOMContentLoaded', function () {
-        // pega todas as imagens dentro da lista com a classe "list-natureza"
+export function img(){
+         // pega todas as imagens dentro da lista com a classe "list-natureza"
         const imagensNatureza = document.querySelectorAll('.list-natureza img');
 
         // pega as seções correspondentes aos links das imagens
@@ -41,6 +40,6 @@ export function imgclick () {
                 sessao.style.display = 'block';
             });
         }
-    });
+    }
 
-}
+

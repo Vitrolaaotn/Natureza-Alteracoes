@@ -1,4 +1,5 @@
 export function Modal () {
+    
     const jsmodal = document.querySelector(".js-modal");
     const dados = {}
     if (localStorage.getItem("email") === null) {
